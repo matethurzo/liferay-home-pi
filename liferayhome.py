@@ -271,7 +271,7 @@ def openFile(fileName):
 	if fileName is None:
 		return None
 
-	f = open(fileName, 'a')
+	f = open(fileName, 'a', 0)
 	return f
 
 resetlcd()
@@ -286,6 +286,8 @@ GPIO.output(zrighthigh, GPIO.HIGH)
 GPIO.output(zrightlow, GPIO.HIGH)
 
 time.sleep(2)
+
+outputfile = openFile('liferayhome.out')
 
 for i in range(0, 4999):
 
@@ -322,6 +324,10 @@ for i in range(0, 4999):
 	if humidity is not None and temperature is not None:
 		print(time.time())
 		print('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
+		outputfile.write(str(time.time()))
+		outputfile.write(' ')
+		outputfile.write('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
+		outputfile.write('\n')
 	else:
 		print('Skipped read')
 
