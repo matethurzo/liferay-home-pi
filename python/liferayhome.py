@@ -285,8 +285,8 @@ for i in range(0, 4999):
 	tempmax = temperature + 2
 	
 	if humidity is not None and temperature is not None:
-		print(time.time())
-		print('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
+		print(str(time.time()) + 'T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
+		
 		outputfile.write(str(time.time()))
 		outputfile.write(' ')
 		outputfile.write('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
