@@ -3,8 +3,10 @@
 # Copyright (c) 2017 Liferay Home
 
 import Adafruit_DHT
-import time
 import RPi.GPIO as GPIO
+
+import time
+import sys
 
 # Setting up sensor type. Adafruit library will handle the type properly
 sensor = Adafruit_DHT.DHT22
@@ -110,7 +112,7 @@ def resetlcd():
 	hideSegment(zrighthigh)
 	hideSegment(zrightlow)
 
-def printnumber(num):
+def aprintnumber(num):
 	if num == 1:
 		lightSegment(righthigh)
 		lightSegment(rightlow)
@@ -230,6 +232,12 @@ def zprintnumber(num):
 		lightSegment(zleftlow)
 		lightSegment(zlefthigh)
 
+def printnumber(number,lcd):
+	if lcd == 1:
+		aprintnumber(number)
+	elif lcd == 0:
+		zprintnumber(number)
+
 def openFile(fileName):
 	if fileName is None:
 		return None
@@ -241,7 +249,7 @@ resetlcd()
 
 time.sleep(5)
 
-printnumber(0)
+printnumber(0,1)
 lightSegment(zleftlow)
 lightSegment(zlefthigh)
 lightSegment(ztop)
@@ -249,8 +257,6 @@ lightSegment(zrighthigh)
 lightSegment(zrightlow)
 
 time.sleep(2)
-
-outputfile = openFile('liferayhome.out')
 
 for i in range(0, 4999):
 
@@ -260,8 +266,8 @@ for i in range(0, 4999):
 	zhumstr = '{0:0.1f}'.format(humidity)[-3:-2]
 
 	resetlcd()
-	printnumber(int(humstr))
-	zprintnumber(int(zhumstr))
+	printnumber(int(humstr),1)
+	printnumber(int(zhumstr),0)
 
 	if temperature > tempabsmax:
 		tempabsmax = temperature
@@ -285,22 +291,17 @@ for i in range(0, 4999):
 	tempmax = temperature + 2
 	
 	if humidity is not None and temperature is not None:
-		print(str(time.time()) + 'T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
-		
-		outputfile.write(str(time.time()))
-		outputfile.write(' ')
-		outputfile.write('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
-		outputfile.write('\n')
+		sys.stdout.write(str(time.time()) + ' T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
 	else:
-		print('Skipped read')
+		sys.stdout.write('Skipped read')
 
 resetlcd()
 
-printnumber(0)
+printnumber(0,1)
 lightSegment(zleftlow)
 lightSegment(zlefthigh)
 lightSegment(zmid)
 lightSegment(ztop)
 
-print('TempAVG {0:0.1f} TempAbsMax {1:0.1f} TempAbsMin {2:0.1f}'.format(tempavg / 5000, tempabsmax, tempabsmin))
-print('HumASVG {0:0.1f} HumAbsMax {1:0.1f} HumAbsMin {2:0.1f}'.format(humavg / 5000, humabsmax, humabsmin))
+sys.stdout.write('TempAVG {0:0.1f} TempAbsMax {1:0.1f} TempAbsMin {2:0.1f}'.format(tempavg / 5000, tempabsmax, tempabsmin))
+sys.stdout.write('HumASVG {0:0.1f} HumAbsMax {1:0.1f} HumAbsMin {2:0.1f}'.format(humavg / 5000, humabsmax, humabsmin))
