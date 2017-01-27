@@ -267,6 +267,13 @@ def zprintnumber(num):
 		GPIO.output(zleftlow,GPIO.HIGH)
 		GPIO.output(zlefthigh,GPIO.HIGH)
 
+def openFile(fileName):
+	if fileName is None:
+		return None
+
+	f = open(fileName, 'a')
+	return f
+
 resetlcd()
 
 time.sleep(5)
@@ -313,6 +320,7 @@ for i in range(0, 4999):
 	tempmax = temperature + 2
 	
 	if humidity is not None and temperature is not None:
+		print(time.time())
 		print('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
 	else:
 		print('Skipped read')
