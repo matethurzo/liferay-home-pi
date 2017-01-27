@@ -1,0 +1,1749 @@
+15:49:41,694 INFO  [localhost-startStop-1][DialectDetector:75] Determine dialect for HSQL Database Engine 2.3
+15:49:41,818 WARN  [localhost-startStop-1][DialectDetector:93] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+15:49:41,820 INFO  [localhost-startStop-1][DialectDetector:148] Found dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect
+15:49:42,681 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED org.eclipse.osgi_3.10.200.v20150831-0856 [0]
+15:49:44,028 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.petra.xml_1.0.7 [2]
+15:49:44,032 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype_2.0.7 [3]
+15:49:44,094 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.persistence_2.1.0 [4]
+15:49:44,098 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.log4j.extender_2.0.4 [5]
+15:49:44,103 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.servlet.context.helper_2.1.9 [6]
+15:49:44,106 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.servlet.jsp.compiler_2.0.14 [7]
+15:49:44,108 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.wab.extender_2.0.15 [8]
+15:49:44,117 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.portal.profile_1.0.5 [9]
+15:49:44,119 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.sun.el.javax.el_3.0.0 [11]
+15:49:44,121 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED javax.servlet.jsp-api_2.3.2.b01 [12]
+15:49:44,123 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED javax.servlet.jsp.jstl-api_1.2.1 [13]
+15:49:44,126 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED javax.servlet.jsp.jstl_1.2.3.LIFERAY-PATCHED-2 [14]
+15:49:44,136 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.commons.fileupload_1.3.2 [15]
+15:49:44,140 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.commons.io_2.2.0 [16]
+15:49:44,260 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.bundlerepository_2.0.2 [17]
+15:49:44,279 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.configadmin_1.8.8 [18]
+15:49:44,280 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager_3.2.0 [19]
+15:49:44,284 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+15:49:44,322 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.eventadmin_1.4.6 [21]
+15:49:46,459 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.fileinstall_3.5.4 [22]
+15:49:46,477 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.command_0.12.0 [23]
+15:49:46,494 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.runtime_0.10.0 [24]
+15:49:46,517 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.shell_0.10.0 [25]
+15:49:46,613 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.scr_2.0.6 [26]
+15:49:46,653 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.eclipse.equinox.console_1.1.100.v20141023-1406 [27]
+15:49:46,659 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.eclipse.equinox.http.servlet_1.2.2.v20161228-2220 [28]
+15:49:46,672 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.eclipse.equinox.metatype_1.4.200.v20150715-1528 [29]
+15:49:46,677 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.osgi.service.http_3.5.0.LIFERAY-PATCHED-2 [30]
+15:49:46,679 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.osgi.service.metatype_1.3.0.201505202024 [31]
+15:49:46,687 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.util.taglib_2.6.0 [32]
+15:49:46,698 INFO  [Start Level: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED com.liferay.osgi.util_3.0.8 [1]
+15:49:46,716 INFO  [Refresh Thread: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:38] STOPPED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+15:49:46,718 INFO  [Refresh Thread: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:38] STOPPED org.apache.felix.dependencymanager_3.2.0 [19]
+15:49:46,963 INFO  [Refresh Thread: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager_3.2.0 [19]
+15:49:46,970 INFO  [Refresh Thread: Equinox Container: 2021b665-4cd7-0016-1543-aac88cff0d4f][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+15:49:46,987 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED woodstox-core-asl_4.4.1 [33]
+15:49:47,043 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.ehcache_2.1.7 [34]
+15:49:47,044 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.ehcache.provider_2.0.3 [35]
+15:49:47,064 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache_2.2.3 [36]
+15:49:47,076 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.single_2.0.3 [37]
+15:49:47,100 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cluster.single_2.0.3 [38]
+15:49:47,114 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.cluster_2.1.3 [39]
+15:49:47,137 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.extender_2.0.8 [40]
+15:49:47,147 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype.definitions.annotations_2.0.4 [41]
+15:49:47,151 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype.definitions.equinox_2.0.6 [42]
+15:49:47,170 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.module.configuration_2.0.6 [43]
+15:49:47,176 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.settings_2.0.7 [44]
+15:49:47,184 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.dao.orm.custom.sql_1.0.7 [45]
+15:49:47,211 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.executor_2.0.3 [46]
+15:49:47,218 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.inactive.request.handler_1.0.0 [47]
+15:49:47,650 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.jmx_3.0.4 [48]
+15:49:47,709 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.messaging_3.0.7 [49]
+15:49:47,719 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.output.stream.container_2.0.4 [50]
+15:49:48,056 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.cxf.common_2.0.12 [51]
+15:49:48,078 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.rest.extender_2.0.5 [53]
+15:49:48,079 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.api_2.0.3 [54]
+15:49:48,085 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.spring.extender_2.0.9 [55]
+15:49:48,201 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.template.velocity_2.0.10 [56]
+15:49:48,208 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.upgrade_2.4.7 [57]
+15:49:48,211 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED javax.validation.api_1.1.0.Final [58]
+15:49:48,213 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED stax2-api_3.1.4 [59]
+15:49:48,215 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.petra.mail_1.0.7 [60]
+15:49:48,218 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.xstream.configurator.api_2.0.3 [61]
+15:49:49,483 ERROR [localhost-startStop-1][PortalBeanLocatorUtil:109] BeanLocator is null
+15:49:49,505 ERROR [localhost-startStop-1][ContextLoader:225] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.liferay.blogs.kernel.service.BlogsEntryLocalService' defined in URL [jar:file:/C:/liferay-portal-slim/tomcat-8.0.32/webapps/ROOT/WEB-INF/lib/com.liferay.portal.impl.blogs.compat.jar!/META-INF/ext-spring.xml]: Initialization of bean failed; nested exception is com.liferay.portal.kernel.bean.BeanLocatorException: BeanFactory could not find bean: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'com.liferay.portal.kernel.service.CompanyLocalService' is defined__	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)__	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)__	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:272)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)__	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:134)__	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:179)__	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor.postProcessBeforeInitialization(BeanReferenceAnnotationBeanPostProcessor.java:84)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1564)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)__	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)__	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)__	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)__	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)__	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)__	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)__	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:434)__	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)__	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)__	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:290)__	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)__	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)__	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)__	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)__	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)__	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)__	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)__	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)__	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)__	at java.util.concurrent.FutureTask.run(FutureTask.java:266)__	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)__	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)__	at java.lang.Thread.run(Thread.java:745)__ and PortalBeanLocator failed with: BeanLocator is not set [Sanitized]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:547)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:434)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:290)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.liferay.portal.kernel.bean.BeanLocatorException: BeanFactory could not find bean: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'com.liferay.portal.kernel.service.CompanyLocalService' is defined__	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:687)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1168)__	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:281)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)__	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:272)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)__	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:134)__	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:179)__	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor.postProcessBeforeInitialization(BeanReferenceAnnotationBeanPostProcessor.java:84)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1564)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)__	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)__	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)__	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)__	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)__	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)__	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)__	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)__	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:480)__	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:434)__	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)__	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)__	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:290)__	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)__	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)__	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)__	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)__	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)__	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)__	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)__	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)__	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)__	at java.util.concurrent.FutureTask.run(FutureTask.java:266)__	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)__	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)__	at java.lang.Thread.run(Thread.java:745)__ and PortalBeanLocator failed with: BeanLocator is not set [Sanitized]
+	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:158)
+	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:179)
+	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor.postProcessBeforeInitialization(BeanReferenceAnnotationBeanPostProcessor.java:84)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	... 25 more
+Caused by: com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator is not set
+	at com.liferay.portal.kernel.bean.PortalBeanLocatorUtil.locate(PortalBeanLocatorUtil.java:74)
+	at com.liferay.portal.spring.bean.BeanReferenceAnnotationBeanPostProcessor._autoInject(BeanReferenceAnnotationBeanPostProcessor.java:138)
+	... 30 more
+15:49:49,551 ERROR [localhost-startStop-1][PortalContextLoaderListener:114] java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.liferay.portal.kernel.servlet.DirectServletRegistryUtil.clearServlets(DirectServletRegistryUtil.java:27)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextDestroyed(PortalContextLoaderListener.java:132)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4859)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:49:49,557 ERROR [localhost-startStop-1][PortalContextLoaderListener:114] java.lang.NullPointerException
+java.lang.NullPointerException
+	at com.liferay.portal.kernel.deploy.hot.HotDeployUtil.reset(HotDeployUtil.java:53)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextDestroyed(PortalContextLoaderListener.java:139)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4859)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:159)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:49:49,561 ERROR [localhost-startStop-1][PortalBeanLocatorUtil:109] BeanLocator is null
+15:50:51,069 INFO  [localhost-startStop-1][DialectDetector:75] Determine dialect for HSQL Database Engine 2.3
+15:50:51,202 WARN  [localhost-startStop-1][DialectDetector:93] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+15:50:51,203 INFO  [localhost-startStop-1][DialectDetector:148] Found dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect
+15:50:52,071 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED org.eclipse.osgi_3.10.200.v20150831-0856 [0]
+15:50:52,169 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\1\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\1\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,172 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\1\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\1\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\1\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,287 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\2\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\2\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,288 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\2\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\2\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\2\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,375 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\3\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\3\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,376 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\3\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\3\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\3\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,419 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\4\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\4\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,420 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\4\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\4\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\4\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,441 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\5\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\5\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,442 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\5\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\5\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\5\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,467 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\6\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\6\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,469 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\6\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\6\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\6\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,572 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\7\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\7\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,588 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\7\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\7\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\7\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,625 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\8\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\8\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,626 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\8\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\8\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\8\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,651 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\9\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\9\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,652 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\9\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\9\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\9\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,675 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\10\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\10\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,677 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\10\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\10\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\10\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,756 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\11\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\11\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,757 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\11\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\11\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\11\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,797 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\12\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\12\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,798 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\12\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\12\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\12\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,932 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\13\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\13\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,932 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\13\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\13\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\13\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:52,979 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\14\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\14\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:52,980 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\14\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\14\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\14\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:53,007 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\15\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\15\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:53,008 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\15\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\15\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\15\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:53,261 ERROR [localhost-startStop-1][ModuleFrameworkImpl:640] org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\16\0\bundleFile
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\16\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+15:50:53,262 ERROR [localhost-startStop-1][ModuleFrameworkImpl:963] com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\16\0\bundleFile
+com.liferay.portal.kernel.exception.PortalException: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\16\0\bundleFile
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:642)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._installInitialBundle(ModuleFrameworkImpl.java:927)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._setUpInitialBundles(ModuleFrameworkImpl.java:1208)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl.startFramework(ModuleFrameworkImpl.java:413)
+	at com.liferay.portal.module.framework.ModuleFrameworkUtilAdapter.startFramework(ModuleFrameworkUtilAdapter.java:99)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextInitialized(PortalContextLoaderListener.java:253)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4812)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5255)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:725)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:701)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:585)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1794)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\16\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at com.liferay.portal.bootstrap.ModuleFrameworkImpl._addBundle(ModuleFrameworkImpl.java:637)
+	... 18 more
+15:50:53,477 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.persistence_2.1.0 [2]
+15:50:53,480 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.apache.commons.io_2.2.0 [8]
+15:50:53,507 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.apache.felix.configadmin_1.8.8 [9]
+15:50:53,571 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.ctc.wstx.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\17\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:53,735 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.cache.ehcache.provider.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\18\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:53,868 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.cache.single.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\19\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:53,974 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.configuration.cluster.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\20\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,112 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.configuration.metatype.definitions.annotations.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\21\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,181 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.configuration.module.configuration.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\22\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,298 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.dao.orm.custom.sql.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\23\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,441 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.inactive.request.handler.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\24\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,515 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.messaging.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\25\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,613 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.remote.cxf.common.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\26\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,792 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.remote.rest.extender.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\27\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,951 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.spring.extender.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\28\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:54,988 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\com.liferay.portal.upgrade.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\29\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,021 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\portal\org.codehaus.stax2.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\30\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,154 ERROR [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_fileinstall:97] Failed to install artifact: C:\liferay-portal-slim\osgi\modules\com.liferay.xstream.configurator.api.jar 
+org.osgi.framework.BundleException: Error while renaming bundle file to final location: C:\liferay-portal-slim\osgi\state\org.eclipse.osgi\31\0\bundleFile
+	at org.eclipse.osgi.storage.Storage.getContentFile0(Storage.java:769)
+	at org.eclipse.osgi.storage.Storage.getContentFile(Storage.java:745)
+	at org.eclipse.osgi.storage.Storage.install(Storage.java:510)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.installBundle(BundleContextImpl.java:146)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.installOrUpdateBundle(DirectoryWatcher.java:1036)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:952)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.install(DirectoryWatcher.java:871)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.doProcess(DirectoryWatcher.java:485)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.process(DirectoryWatcher.java:361)
+	at org.apache.felix.fileinstall.internal.DirectoryWatcher.start(DirectoryWatcher.java:243)
+	at org.apache.felix.fileinstall.internal.FileInstall.updated(FileInstall.java:253)
+	at org.apache.felix.fileinstall.internal.FileInstall.start(FileInstall.java:130)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:951)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:328)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:566)
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.container.ModuleContainer.applyDelta(ModuleContainer.java:717)
+	at org.eclipse.osgi.container.ModuleContainer.resolveAndApply(ModuleContainer.java:491)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:437)
+	at org.eclipse.osgi.container.ModuleContainer.resolve(ModuleContainer.java:427)
+	at org.eclipse.osgi.container.Module.start(Module.java:411)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,187 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.apache.felix.fileinstall_3.5.4 [11]
+15:50:55,209 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.runtime_0.10.0 [12]
+15:50:55,304 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.apache.felix.scr_2.0.6 [13]
+15:50:55,317 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.eclipse.equinox.http.servlet_1.2.2.v20161228-2220 [14]
+15:50:55,320 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED org.osgi.service.http_3.5.0.LIFERAY-PATCHED-2 [15]
+15:50:55,321 ERROR [CM Configuration Updater (ManagedService Update: pid=[org.apache.felix.scr.ScrService])][org_apache_felix_scr:97] Cannot create MetaType providing ManagedService; not providing Metatype information but just accepting configuration 
+15:50:55,322 INFO  [Start Level: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][BundleStartStopLogger:35] STARTED com.liferay.petra.xml_1.0.7 [1]
+15:50:55,352 ERROR [Framework Event Dispatcher: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][com_liferay_portal_osgi_web_servlet_context_helper:97] FrameworkEvent ERROR 
+org.osgi.framework.BundleException: Could not resolve module: com.liferay.portal.osgi.web.servlet.context.helper [3]_  Unresolved requirement: Import-Package: com.liferay.osgi.util; version="[2.0.0,3.0.0)"_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:429)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,361 ERROR [Framework Event Dispatcher: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][com_liferay_portal_osgi_web_wab_extender:97] FrameworkEvent ERROR 
+org.osgi.framework.BundleException: Could not resolve module: com.liferay.portal.osgi.web.wab.extender [4]_  Unresolved requirement: Import-Package: com.liferay.osgi.util; version="[2.0.0,3.0.0)"_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:429)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,374 ERROR [Framework Event Dispatcher: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][javax_servlet_jsp-api:97] FrameworkEvent ERROR 
+org.osgi.framework.BundleException: Could not resolve module: javax.servlet.jsp-api [6]_  Unresolved requirement: Import-Package: javax.el_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:429)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,386 ERROR [Framework Event Dispatcher: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][javax_servlet_jsp_jstl:97] FrameworkEvent ERROR 
+org.osgi.framework.BundleException: Could not resolve module: javax.servlet.jsp.jstl [7]_  Unresolved requirement: Import-Package: javax.el_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:429)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,400 ERROR [Framework Event Dispatcher: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][org_apache_felix_dependencymanager_shell:97] FrameworkEvent ERROR 
+org.osgi.framework.BundleException: Could not resolve module: org.apache.felix.dependencymanager.shell [10]_  Unresolved requirement: Import-Package: org.apache.felix.dm; version="[3.1.0,4.0.0)"_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:429)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:50:55,408 ERROR [Framework Event Dispatcher: Equinox Container: e046ed8e-4cd7-0016-119c-e2db037cfb00][com_liferay_util_taglib:97] FrameworkEvent ERROR 
+org.osgi.framework.BundleException: Could not resolve module: com.liferay.util.taglib [16]_  Unresolved requirement: Import-Package: javax.el_ [Sanitized]
+	at org.eclipse.osgi.container.Module.start(Module.java:429)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+15:51:36,724 INFO  [localhost-startStop-1][DialectDetector:75] Determine dialect for HSQL Database Engine 2.3
+15:51:36,844 WARN  [localhost-startStop-1][DialectDetector:93] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demonstration purposes. The database settings can be changed in portal-ext.properties.
+15:51:36,844 INFO  [localhost-startStop-1][DialectDetector:148] Found dialect com.liferay.portal.dao.orm.hibernate.HSQLDialect
+15:51:37,621 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED org.eclipse.osgi_3.10.200.v20150831-0856 [0]
+15:51:38,829 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.petra.xml_1.0.7 [2]
+15:51:38,832 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype_2.0.7 [3]
+15:51:38,862 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.persistence_2.1.0 [4]
+15:51:38,868 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.log4j.extender_2.0.4 [5]
+15:51:38,874 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.servlet.context.helper_2.1.9 [6]
+15:51:38,877 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.servlet.jsp.compiler_2.0.14 [7]
+15:51:38,880 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.osgi.web.wab.extender_2.0.15 [8]
+15:51:38,890 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.portal.profile_1.0.5 [9]
+15:51:38,894 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.sun.el.javax.el_3.0.0 [11]
+15:51:38,897 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED javax.servlet.jsp-api_2.3.2.b01 [12]
+15:51:38,909 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED javax.servlet.jsp.jstl-api_1.2.1 [13]
+15:51:38,921 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED javax.servlet.jsp.jstl_1.2.3.LIFERAY-PATCHED-2 [14]
+15:51:38,925 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.commons.fileupload_1.3.2 [15]
+15:51:38,929 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.commons.io_2.2.0 [16]
+15:51:39,093 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.bundlerepository_2.0.2 [17]
+15:51:39,120 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.configadmin_1.8.8 [18]
+15:51:39,122 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager_3.2.0 [19]
+15:51:39,139 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+15:51:39,172 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.eventadmin_1.4.6 [21]
+15:51:41,183 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.fileinstall_3.5.4 [22]
+15:51:41,199 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.command_0.12.0 [23]
+15:51:41,218 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.runtime_0.10.0 [24]
+15:51:41,238 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.gogo.shell_0.10.0 [25]
+15:51:41,333 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.scr_2.0.6 [26]
+15:51:41,355 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.eclipse.equinox.console_1.1.100.v20141023-1406 [27]
+15:51:41,361 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.eclipse.equinox.http.servlet_1.2.2.v20161228-2220 [28]
+15:51:41,378 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.eclipse.equinox.metatype_1.4.200.v20150715-1528 [29]
+15:51:41,381 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.osgi.service.http_3.5.0.LIFERAY-PATCHED-2 [30]
+15:51:41,383 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.osgi.service.metatype_1.3.0.201505202024 [31]
+15:51:41,385 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.util.taglib_2.6.0 [32]
+15:51:41,386 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED com.liferay.osgi.util_3.0.8 [1]
+15:51:41,397 INFO  [Refresh Thread: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+15:51:41,399 INFO  [Refresh Thread: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED org.apache.felix.dependencymanager_3.2.0 [19]
+15:51:41,609 INFO  [Refresh Thread: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager_3.2.0 [19]
+15:51:41,617 INFO  [Refresh Thread: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:35] STARTED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+15:51:41,638 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED woodstox-core-asl_4.4.1 [33]
+15:51:41,656 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.ehcache_2.1.7 [34]
+15:51:41,716 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.ehcache.provider_2.0.3 [35]
+15:51:41,726 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache_2.2.3 [36]
+15:51:41,737 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cache.single_2.0.3 [37]
+15:51:41,751 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.cluster.single_2.0.3 [38]
+15:51:41,774 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.cluster_2.1.3 [39]
+15:51:41,798 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.extender_2.0.8 [40]
+15:51:41,839 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype.definitions.annotations_2.0.4 [41]
+15:51:41,850 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.metatype.definitions.equinox_2.0.6 [42]
+15:51:41,855 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.module.configuration_2.0.6 [43]
+15:51:41,889 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.configuration.settings_2.0.7 [44]
+15:51:41,898 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.dao.orm.custom.sql_1.0.7 [45]
+15:51:41,933 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.executor_2.0.3 [46]
+15:51:41,989 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.inactive.request.handler_1.0.0 [47]
+15:51:41,999 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.jmx_3.0.4 [48]
+15:51:42,445 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.messaging_3.0.7 [49]
+15:51:42,525 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.output.stream.container_2.0.4 [50]
+15:51:42,955 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.cxf.common_2.0.12 [51]
+15:51:42,988 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.remote.rest.extender_2.0.5 [53]
+15:51:42,994 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.settings.api_2.0.3 [54]
+15:51:43,001 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.spring.extender_2.0.9 [55]
+15:51:43,017 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.template.velocity_2.0.10 [56]
+15:51:43,187 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.portal.upgrade_2.4.7 [57]
+15:51:43,198 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED javax.validation.api_1.1.0.Final [58]
+15:51:43,204 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED stax2-api_3.1.4 [59]
+15:51:43,205 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.petra.mail_1.0.7 [60]
+15:51:43,206 INFO  [localhost-startStop-1][BundleStartStopLogger:35] STARTED com.liferay.xstream.configurator.api_2.0.3 [61]
+15:51:45,998 INFO  [localhost-startStop-1][BaseDB:499] Database supports case sensitive queries
+16:45:37,108 ERROR [localhost-startStop-2][PortalContextLoaderListener:114] java.lang.UnsupportedOperationException: com.liferay.portal.kernel.deploy.hot.HotDeploy
+java.lang.UnsupportedOperationException: com.liferay.portal.kernel.deploy.hot.HotDeploy
+	at com.liferay.slim.runtime.internal.util.SlimRuntimeStubFactory$StubInvocationHandker.invoke(SlimRuntimeStubFactory.java:43)
+	at com.sun.proxy.$Proxy56.reset(Unknown Source)
+	at com.liferay.portal.kernel.deploy.hot.HotDeployUtil.reset(HotDeployUtil.java:53)
+	at com.liferay.portal.spring.context.PortalContextLoaderListener.contextDestroyed(PortalContextLoaderListener.java:139)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4859)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5478)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1424)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1413)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+16:45:37,225 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.xstream.configurator.api_2.0.3 [61]
+16:45:37,228 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.petra.mail_1.0.7 [60]
+16:45:37,236 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED stax2-api_3.1.4 [59]
+16:45:37,240 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED javax.validation.api_1.1.0.Final [58]
+16:45:37,244 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.upgrade_2.4.7 [57]
+16:45:37,259 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.template.velocity_2.0.10 [56]
+16:45:37,267 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.spring.extender_2.0.9 [55]
+16:45:37,270 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.settings.api_2.0.3 [54]
+16:45:37,279 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.remote.rest.extender_2.0.5 [53]
+16:45:37,298 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.remote.cxf.common_2.0.12 [51]
+16:45:37,307 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.output.stream.container_2.0.4 [50]
+16:45:37,319 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.messaging_3.0.7 [49]
+16:45:37,346 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.jmx_3.0.4 [48]
+16:45:37,349 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.inactive.request.handler_1.0.0 [47]
+16:45:37,359 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.executor_2.0.3 [46]
+16:45:37,360 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.dao.orm.custom.sql_1.0.7 [45]
+16:45:37,368 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.settings_2.0.7 [44]
+16:45:37,372 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.module.configuration_2.0.6 [43]
+16:45:37,374 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.metatype.definitions.equinox_2.0.6 [42]
+16:45:37,382 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.metatype.definitions.annotations_2.0.4 [41]
+16:45:37,393 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.extender_2.0.8 [40]
+16:45:37,394 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.cluster_2.1.3 [39]
+16:45:37,396 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.cluster.single_2.0.3 [38]
+16:45:37,398 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.cache.single_2.0.3 [37]
+16:45:37,399 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.cache_2.2.3 [36]
+16:45:37,410 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.cache.ehcache.provider_2.0.3 [35]
+16:45:37,412 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED com.liferay.portal.cache.ehcache_2.1.7 [34]
+16:45:37,417 INFO  [Start Level: Equinox Container: 701235aa-4cd7-0016-187a-8335968d3ae9][BundleStartStopLogger:38] STOPPED woodstox-core-asl_4.4.1 [33]
+16:45:37,418 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.util.taglib_2.6.0 [32]
+16:45:37,431 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.osgi.service.metatype_1.3.0.201505202024 [31]
+16:45:37,433 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.osgi.service.http_3.5.0.LIFERAY-PATCHED-2 [30]
+16:45:37,435 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.eclipse.equinox.metatype_1.4.200.v20150715-1528 [29]
+16:45:37,437 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.eclipse.equinox.http.servlet_1.2.2.v20161228-2220 [28]
+16:45:37,440 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.eclipse.equinox.console_1.1.100.v20141023-1406 [27]
+16:45:37,458 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.scr_2.0.6 [26]
+16:45:37,459 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.gogo.shell_0.10.0 [25]
+16:45:37,466 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.gogo.runtime_0.10.0 [24]
+16:45:37,467 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.gogo.command_0.12.0 [23]
+16:45:37,470 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.fileinstall_3.5.4 [22]
+16:45:37,472 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.eventadmin_1.4.6 [21]
+16:45:37,472 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.dependencymanager.shell_3.2.0 [20]
+16:45:37,478 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.dependencymanager_3.2.0 [19]
+16:45:37,488 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.configadmin_1.8.8 [18]
+16:45:37,489 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.felix.bundlerepository_2.0.2 [17]
+16:45:37,489 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.commons.io_2.2.0 [16]
+16:45:37,496 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED org.apache.commons.fileupload_1.3.2 [15]
+16:45:37,502 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED javax.servlet.jsp.jstl_1.2.3.LIFERAY-PATCHED-2 [14]
+16:45:37,503 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED javax.servlet.jsp.jstl-api_1.2.1 [13]
+16:45:37,513 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED javax.servlet.jsp-api_2.3.2.b01 [12]
+16:45:37,520 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.sun.el.javax.el_3.0.0 [11]
+16:45:37,521 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.profile_1.0.5 [9]
+16:45:37,531 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.osgi.web.wab.extender_2.0.15 [8]
+16:45:37,540 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.osgi.web.servlet.jsp.compiler_2.0.14 [7]
+16:45:37,542 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.osgi.web.servlet.context.helper_2.1.9 [6]
+16:45:37,549 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.log4j.extender_2.0.4 [5]
+16:45:37,557 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.persistence_2.1.0 [4]
+16:45:37,558 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.portal.configuration.metatype_2.0.7 [3]
+16:45:37,565 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.petra.xml_1.0.7 [2]
+16:45:37,572 INFO  [Framework stop][BundleStartStopLogger:38] STOPPED com.liferay.osgi.util_3.0.8 [1]
