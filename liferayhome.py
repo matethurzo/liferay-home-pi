@@ -313,11 +313,7 @@ for i in range(0, 4999):
 	tempmax = temperature + 2
 	
 	if humidity is not None and temperature is not None:
-		print(i)
-		print('Temp={0:0.1f}*C Hum={1:0.1f}%'.format(temperature, humidity))
-#    		print('TempMIN={0:0.1f}*C TempMAX={1:0.1f}*C'.format(tempmin, tempmax))
-#		print('HumidityMIN={0:0.1f}%  HumidityMAX={1:0.1f}%'.format(humiditymin, humiditymax))
-
+		print('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
 	else:
 		print('Skipped read')
 
