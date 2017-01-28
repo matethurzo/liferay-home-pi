@@ -8,6 +8,8 @@ import RPi.GPIO as GPIO
 import time
 import sys
 
+from pathlib import Path
+
 # Read command line arguments
 if len(sys.argv) == 1:
 	print('Usage: liferayhome.py [readSleepTime] [readIterations]')
@@ -285,26 +287,29 @@ for i in range(0, 4999):
 
 	resetlcd()
 
-	controlfile = open('liferayhome.ctl', 'r')
+	controlfilepath = Path("liferayhome.ctl")
 	
-	if controlfile is not None:
-		controlvalue = controlfile.readline()
+	if controlfilepath.is_file():
+		controlfile = open('liferayhome.ctl', 'r')
+		
+		if controlfile is not None:
+			controlvalue = controlfile.readline()
 
-		if controlvalue == 'HEAT':
-			printnumber(0,1)
-			lightSegment(zleftlow)
-			lightSegment(zlefthigh)
-			lightSegment(ztop)
-			lightSegment(zrighthigh)
-			lightSegment(zrightlow)
-		elif controlvalue == 'COOL':
-			printnumber(0,1)
-			lightSegment(zleftlow)
-			lightSegment(zlefthigh)
-			lightSegment(zmid)
-			lightSegment(ztop)
-		elif controlvalue == 'NOOP':
-			resetlcd()
+			if controlvalue == 'HEAT':
+				printnumber(0,1)
+				lightSegment(zleftlow)
+				lightSegment(zlefthigh)
+				lightSegment(ztop)
+				lightSegment(zrighthigh)
+				lightSegment(zrightlow)
+			elif controlvalue == 'COOL':
+				printnumber(0,1)
+				lightSegment(zleftlow)
+				lightSegment(zlefthigh)
+				lightSegment(zmid)
+				lightSegment(ztop)
+			elif controlvalue == 'NOOP':
+				resetlcd()
 
 	controlfile.close()
 
