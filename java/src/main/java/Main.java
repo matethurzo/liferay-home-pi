@@ -17,6 +17,9 @@ import java.util.List;
  */
 public class Main {
 	public static void main(String[] args) throws Exception {
+
+		System.out.println("Started.");
+
 		String serialNumber = "liferay-home";
 
 		long deviceId = addDevice(serialNumber);
@@ -29,6 +32,8 @@ public class Main {
 			String line = null;
 
 			while ((line = br.readLine()) != null) {
+				System.out.println("Read line: " + line);
+
 				String[] lineValues = line.split("#");
 
 				double temp = Double.parseDouble(lineValues[1]);
