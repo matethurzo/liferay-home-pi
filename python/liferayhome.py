@@ -8,6 +8,24 @@ import RPi.GPIO as GPIO
 import time
 import sys
 
+# Read command line arguments
+if len(sys.argv) == 0:
+	print('Usage: liferayhome.py [readSleepTime] [readIterations]')
+
+	sys.exit()
+
+# Read sleep time
+readSleepTime = 5
+
+if sys.argv[0] is not None:
+	readSleepTime = int(sys.argv[0])
+
+# Number of iterations
+readIterations = 5000
+
+if sys.argv[1] is not None:
+	readIterations = int(sys.argv[1])
+
 # Setting up sensor type. Adafruit library will handle the type properly
 sensor = Adafruit_DHT.DHT22
 
@@ -295,6 +313,10 @@ for i in range(0, 4999):
 	else:
 		sys.stdout.write('Skipped read')
 
+	sys.stdout.write('\n')
+
+	time.sleep(readSleepTime)
+
 resetlcd()
 
 printnumber(0,1)
@@ -304,4 +326,5 @@ lightSegment(zmid)
 lightSegment(ztop)
 
 sys.stdout.write('TempAVG {0:0.1f} TempAbsMax {1:0.1f} TempAbsMin {2:0.1f}'.format(tempavg / 5000, tempabsmax, tempabsmin))
+sys.stdout.write('\n')
 sys.stdout.write('HumASVG {0:0.1f} HumAbsMax {1:0.1f} HumAbsMin {2:0.1f}'.format(humavg / 5000, humabsmax, humabsmin))
