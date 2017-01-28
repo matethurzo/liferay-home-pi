@@ -309,7 +309,7 @@ for i in range(0, 4999):
 	tempmax = temperature + 2
 	
 	if humidity is not None and temperature is not None:
-		sys.stdout.write(str(time.time()) + ' T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
+		sys.stdout.write(str(time.time()) + '#T={0:0.1f}#H={1:0.1f}'.format(temperature, humidity))
 	else:
 		sys.stdout.write('Skipped read')
 
