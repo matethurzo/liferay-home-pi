@@ -7,23 +7,48 @@ import com.mashape.unirest.request.HttpRequest;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.List;
 
 /**
  * @author Akos Thurzo
+ * @author Mate Thurzo
  */
 public class Main {
 	public static void main(String[] args) throws Exception {
-		String serialNumber = "serialnumber-4";
+		String serialNumber = "liferay-home";
 
 		long deviceId = addDevice(serialNumber);
 
+		BufferedReader br = null;
+
+		try {
+			br = new BufferedReader(new InputStreamReader(System.in));
+
+			String line = null;
+
+			while ((line = br.readLine()) != null) {
+				String[] lineValues = line.split("#");
+
+				double temp = Double.parseDouble(lineValues[1]);
+				double hum = Double.parseDouble(lineValues[2]);
+
+				uploadData(deviceId, "TEMPERATURE", temp);
+				uploadData(deviceId, "HUMIDITY", hum);
+			}
+		}
+		catch (Exception e) {
+			e.printStackTrace();
+		}
+
+/*
 		for (int i = 0; i < 10; i++) {
 			uploadData(deviceId, "TEMPERATURE", System.currentTimeMillis());
 			uploadData(deviceId, "HUMIDITY", System.currentTimeMillis());
 			Thread.sleep(5000);
 		}
-
+*/
 	}
 
 	private static void uploadData(long deviceId, String type, double value) throws UnirestException {
