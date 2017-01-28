@@ -9,6 +9,7 @@ import org.json.JSONObject;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.util.List;
 
 /**
@@ -41,6 +42,14 @@ public class Main {
 
 				uploadData(deviceId, "TEMPERATURE", temp);
 				uploadData(deviceId, "HUMIDITY", hum);
+
+				PrintWriter out = new PrintWriter("liferayhome.ctl");
+
+				out.println(getOrder(deviceId));
+
+				out.flush();
+
+				out.close();
 			}
 		}
 		catch (Exception e) {
@@ -54,6 +63,13 @@ public class Main {
 			Thread.sleep(5000);
 		}
 */
+	}
+
+	private static String getOrder(long deviceId) throws UnirestException {
+		HttpRequest deviceResponse = Unirest.get("http://app.liferay-home.wedeploy.io/giveMeOrder")
+			.queryString("deviceId", deviceId);
+
+		return deviceResponse.asString().getBody();
 	}
 
 	private static void uploadData(long deviceId, String type, double value) throws UnirestException {

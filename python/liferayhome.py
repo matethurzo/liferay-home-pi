@@ -284,8 +284,32 @@ for i in range(0, 4999):
 	zhumstr = '{0:0.1f}'.format(humidity)[-3:-2]
 
 	resetlcd()
-	printnumber(int(humstr),1)
-	printnumber(int(zhumstr),0)
+
+	controlfile = open('liferayhome.ctl', 'r')
+	
+	if controlfile is not None:
+		controlvalue = controlfile.readline()
+
+		if controlvalue == 'HEAT':
+			printnumber(0,1)
+			lightSegment(zleftlow)
+			lightSegment(zlefthigh)
+			lightSegment(ztop)
+			lightSegment(zrighthigh)
+			lightSegment(zrightlow)
+		elif controlvalue == 'COOL':
+			printnumber(0,1)
+			lightSegment(zleftlow)
+			lightSegment(zlefthigh)
+			lightSegment(zmid)
+			lightSegment(ztop)
+		elif controlvalue == 'NOOP':
+			resetlcd()
+
+	controlfile.close()
+
+	#printnumber(int(humstr),1)
+	#printnumber(int(zhumstr),0)
 
 	if temperature > tempabsmax:
 		tempabsmax = temperature
@@ -315,7 +339,7 @@ for i in range(0, 4999):
 
 	sys.stdout.write('\n')
 	sys.stdout.flush()
-	
+
 	time.sleep(readSleepTime)
 
 resetlcd()
