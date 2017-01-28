@@ -8,7 +8,7 @@ import RPi.GPIO as GPIO
 import time
 import sys
 
-from pathlib import Path
+import os.path
 
 # Read command line arguments
 if len(sys.argv) == 1:
@@ -287,9 +287,7 @@ for i in range(0, 4999):
 
 	resetlcd()
 
-	controlfilepath = Path("liferayhome.ctl")
-	
-	if controlfilepath.is_file():
+	if os.path.exists('liferayhome.ctl'):
 		controlfile = open('liferayhome.ctl', 'r')
 		
 		if controlfile is not None:
