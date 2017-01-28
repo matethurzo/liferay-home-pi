@@ -3,8 +3,28 @@
 # Copyright (c) 2017 Liferay Home
 
 import Adafruit_DHT
-import time
 import RPi.GPIO as GPIO
+
+import time
+import sys
+
+# Read command line arguments
+if len(sys.argv) == 0:
+	print('Usage: liferayhome.py [readSleepTime] [readIterations]')
+
+	sys.exit()
+
+# Read sleep time
+readSleepTime = 5
+
+if sys.argv[0] is not None:
+	readSleepTime = int(sys.argv[0])
+
+# Number of iterations
+readIterations = 5000
+
+if sys.argv[1] is not None:
+	readIterations = int(sys.argv[1])
 
 # Setting up sensor type. Adafruit library will handle the type properly
 sensor = Adafruit_DHT.DHT22
@@ -59,11 +79,6 @@ GPIO.setup(bottom,GPIO.OUT)
 rightlow = 25
 GPIO.setup(rightlow,GPIO.OUT)
 
-lcd1 = []
-lcd1.append([lefthigh, top, righthigh])
-lcd1.append([0, mid, 0])
-lcd1.append([leftlow, bottom, rightlow])
-
 #zlefthigh
 zlefthigh = 20
 GPIO.setup(zlefthigh,GPIO.OUT)
@@ -92,180 +107,154 @@ GPIO.setup(zbottom,GPIO.OUT)
 zrightlow = 6
 GPIO.setup(zrightlow,GPIO.OUT)
 
-lcd2 = []
-lcd2.append([zlefthigh, ztop, zrighthigh])
-lcd2.append([0, zmid, 0])
-lcd2.append([zleftlow, zbottom, zrightlow])
-
-def setupPins(lcd):
-	for row in lcd:
-		for pin in row:
-			if pin != 0:
-				GPIO.setup(pin, GPIO.OUT)
-
-def resetlcd():
-	GPIO.output(top,GPIO.LOW)
-	GPIO.output(mid,GPIO.LOW)
-	GPIO.output(bottom,GPIO.LOW)
-	GPIO.output(lefthigh,GPIO.LOW)
-	GPIO.output(leftlow,GPIO.LOW)
-	GPIO.output(righthigh,GPIO.LOW)
-	GPIO.output(rightlow,GPIO.LOW)
-
-	GPIO.output(ztop,GPIO.LOW)
-	GPIO.output(zmid,GPIO.LOW)
-	GPIO.output(zbottom,GPIO.LOW)
-	GPIO.output(zlefthigh,GPIO.LOW)
-	GPIO.output(zleftlow,GPIO.LOW)
-	GPIO.output(zrighthigh,GPIO.LOW)
-	GPIO.output(zrightlow,GPIO.LOW)
-
-
 def lightSegment(segmentPin):
 	GPIO.output(segmentPin, GPIO.HIGH)
 
-def showNumber(number,actualLcd):
-	lcd = lcd1
+def hideSegment(segmentPin):
+	GPIO.output(segmentPin, GPIO.LOW)
 
-	if actualLcd == 2:
-		lcd = lcd2
+def resetlcd():
+	hideSegment(top)
+	hideSegment(mid)
+	hideSegment(bottom)
+	hideSegment(lefthigh)
+	hideSegment(leftlow)
+	hideSegment(righthigh)
+	hideSegment(rightlow)
 
-	segments = []
+	hideSegment(ztop)
+	hideSegment(zmid)
+	hideSegment(zbottom)
+	hideSegment(zlefthigh)
+	hideSegment(zleftlow)
+	hideSegment(zrighthigh)
+	hideSegment(zrightlow)
 
-	if number == 1:
-		segments.append(1)
-		segments.append(7)
-	elif number == 2:
-		segments.append(2)
-		lightSegment(actualLcd[0][1])
-		lightSegment(actualLcd[0][2])
-		lightSegment(actualLcd[1][1])
-		lightSegment(actualLcd[2][0])
-		lightSegment(actualLcd[2][1])
-		lightSegment(actualLcd[2][2])
-	elif number == 3:
-		lightSegment(actualLcd[0][1])
-		lightSegment(actualLcd[0][2])
-
-def printnumber(num):
+def aprintnumber(num):
 	if num == 1:
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
+		lightSegment(righthigh)
+		lightSegment(rightlow)
 	elif num == 2:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
-		GPIO.output(leftlow,GPIO.HIGH)
-		GPIO.output(bottom,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(righthigh)
+		lightSegment(mid)
+		lightSegment(leftlow)
+		lightSegment(bottom)
 	elif num == 3:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
-		GPIO.output(bottom,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(righthigh)
+		lightSegment(mid)
+		lightSegment(rightlow)
+		lightSegment(bottom)
 	elif num == 4:
-		GPIO.output(lefthigh,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
+		lightSegment(lefthigh)
+		lightSegment(righthigh)
+		lightSegment(mid)
+		lightSegment(rightlow)
 	elif num == 5:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(lefthigh,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
-		GPIO.output(bottom,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(lefthigh)
+		lightSegment(mid)
+		lightSegment(rightlow)
+		lightSegment(bottom)
 	elif num == 6:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(lefthigh,GPIO.HIGH)
-		GPIO.output(leftlow,GPIO.HIGH)
-		GPIO.output(bottom,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(lefthigh)
+		lightSegment(leftlow)
+		lightSegment(bottom)
+		lightSegment(rightlow)
+		lightSegment(mid)
 	elif num == 7:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(righthigh)
+		lightSegment(rightlow)
 	elif num == 8:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
-		GPIO.output(bottom,GPIO.HIGH)
-		GPIO.output(lefthigh,GPIO.HIGH)
-		GPIO.output(leftlow,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(mid)
+		lightSegment(bottom)
+		lightSegment(lefthigh)
+		lightSegment(leftlow)
+		lightSegment(righthigh)
+		lightSegment(rightlow)
 	elif num == 9:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(lefthigh,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(mid,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(lefthigh)
+		lightSegment(righthigh)
+		lightSegment(mid)
+		lightSegment(rightlow)
 	elif num == 0:
-		GPIO.output(top,GPIO.HIGH)
-		GPIO.output(righthigh,GPIO.HIGH)
-		GPIO.output(rightlow,GPIO.HIGH)
-		GPIO.output(bottom,GPIO.HIGH)
-		GPIO.output(leftlow,GPIO.HIGH)
-		GPIO.output(lefthigh,GPIO.HIGH)
+		lightSegment(top)
+		lightSegment(righthigh)
+		lightSegment(rightlow)
+		lightSegment(bottom)
+		lightSegment(leftlow)
+		lightSegment(lefthigh)
 
 def zprintnumber(num):
 	if num == 1:
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
+		lightSegment(zrighthigh)
+		lightSegment(zrightlow)
 	elif num == 2:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
-		GPIO.output(zleftlow,GPIO.HIGH)
-		GPIO.output(zbottom,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zrighthigh)
+		lightSegment(zmid)
+		lightSegment(zleftlow)
+		lightSegment(zbottom)
 	elif num == 3:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
-		GPIO.output(zbottom,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zrighthigh)
+		lightSegment(zmid)
+		lightSegment(zrightlow)
+		lightSegment(zbottom)
 	elif num == 4:
-		GPIO.output(zlefthigh,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
+		lightSegment(zlefthigh)
+		lightSegment(zrighthigh)
+		lightSegment(zmid)
+		lightSegment(zrightlow)
 	elif num == 5:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zlefthigh,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
-		GPIO.output(zbottom,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zlefthigh)
+		lightSegment(zmid)
+		lightSegment(zrightlow)
+		lightSegment(zbottom)
 	elif num == 6:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zlefthigh,GPIO.HIGH)
-		GPIO.output(zleftlow,GPIO.HIGH)
-		GPIO.output(zbottom,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zlefthigh)
+		lightSegment(zleftlow)
+		lightSegment(zbottom)
+		lightSegment(zrightlow)
+		lightSegment(zmid)
 	elif num == 7:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zrighthigh)
+		lightSegment(zrightlow)
 	elif num == 8:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
-		GPIO.output(zbottom,GPIO.HIGH)
-		GPIO.output(zlefthigh,GPIO.HIGH)
-		GPIO.output(zleftlow,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zmid)
+		lightSegment(zbottom)
+		lightSegment(zlefthigh)
+		lightSegment(zleftlow)
+		lightSegment(zrighthigh)
+		lightSegment(zrightlow)
 	elif num == 9:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zlefthigh,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zmid,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zlefthigh)
+		lightSegment(zrighthigh)
+		lightSegment(zmid)
+		lightSegment(zrightlow)
 	elif num == 0:
-		GPIO.output(ztop,GPIO.HIGH)
-		GPIO.output(zrighthigh,GPIO.HIGH)
-		GPIO.output(zrightlow,GPIO.HIGH)
-		GPIO.output(zbottom,GPIO.HIGH)
-		GPIO.output(zleftlow,GPIO.HIGH)
-		GPIO.output(zlefthigh,GPIO.HIGH)
+		lightSegment(ztop)
+		lightSegment(zrighthigh)
+		lightSegment(zrightlow)
+		lightSegment(zbottom)
+		lightSegment(zleftlow)
+		lightSegment(zlefthigh)
+
+def printnumber(number,lcd):
+	if lcd == 1:
+		aprintnumber(number)
+	elif lcd == 0:
+		zprintnumber(number)
 
 def openFile(fileName):
 	if fileName is None:
@@ -278,16 +267,14 @@ resetlcd()
 
 time.sleep(5)
 
-printnumber(0)
-GPIO.output(zleftlow, GPIO.HIGH)
-GPIO.output(zlefthigh, GPIO.HIGH)
-GPIO.output(ztop, GPIO.HIGH)
-GPIO.output(zrighthigh, GPIO.HIGH)
-GPIO.output(zrightlow, GPIO.HIGH)
+printnumber(0,1)
+lightSegment(zleftlow)
+lightSegment(zlefthigh)
+lightSegment(ztop)
+lightSegment(zrighthigh)
+lightSegment(zrightlow)
 
 time.sleep(2)
-
-outputfile = openFile('liferayhome.out')
 
 for i in range(0, 4999):
 
@@ -297,8 +284,8 @@ for i in range(0, 4999):
 	zhumstr = '{0:0.1f}'.format(humidity)[-3:-2]
 
 	resetlcd()
-	printnumber(int(humstr))
-	zprintnumber(int(zhumstr))
+	printnumber(int(humstr),1)
+	printnumber(int(zhumstr),0)
 
 	if temperature > tempabsmax:
 		tempabsmax = temperature
@@ -322,22 +309,22 @@ for i in range(0, 4999):
 	tempmax = temperature + 2
 	
 	if humidity is not None and temperature is not None:
-		print(time.time())
-		print('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
-		outputfile.write(str(time.time()))
-		outputfile.write(' ')
-		outputfile.write('T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
-		outputfile.write('\n')
+		sys.stdout.write(str(time.time()) + ' T={0:0.1f} H={1:0.1f}'.format(temperature, humidity))
 	else:
-		print('Skipped read')
+		sys.stdout.write('Skipped read')
+
+	sys.stdout.write('\n')
+
+	time.sleep(readSleepTime)
 
 resetlcd()
 
-printnumber(0)
-GPIO.output(zleftlow, GPIO.HIGH)
-GPIO.output(zlefthigh, GPIO.HIGH)
-GPIO.output(zmid, GPIO.HIGH)
-GPIO.output(ztop, GPIO.HIGH)
+printnumber(0,1)
+lightSegment(zleftlow)
+lightSegment(zlefthigh)
+lightSegment(zmid)
+lightSegment(ztop)
 
-print('TempAVG {0:0.1f} TempAbsMax {1:0.1f} TempAbsMin {2:0.1f}'.format(tempavg / 5000, tempabsmax, tempabsmin))
-print('HumASVG {0:0.1f} HumAbsMax {1:0.1f} HumAbsMin {2:0.1f}'.format(humavg / 5000, humabsmax, humabsmin))
+sys.stdout.write('TempAVG {0:0.1f} TempAbsMax {1:0.1f} TempAbsMin {2:0.1f}'.format(tempavg / 5000, tempabsmax, tempabsmin))
+sys.stdout.write('\n')
+sys.stdout.write('HumASVG {0:0.1f} HumAbsMax {1:0.1f} HumAbsMin {2:0.1f}'.format(humavg / 5000, humabsmax, humabsmin))
