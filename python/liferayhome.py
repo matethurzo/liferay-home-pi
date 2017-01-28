@@ -309,7 +309,7 @@ for i in range(0, 4999):
 			elif controlvalue == 'NOOP':
 				resetlcd()
 
-	controlfile.close()
+		controlfile.close()
 
 	#printnumber(int(humstr),1)
 	#printnumber(int(zhumstr),0)
