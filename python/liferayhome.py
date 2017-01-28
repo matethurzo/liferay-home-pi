@@ -314,7 +314,8 @@ for i in range(0, 4999):
 		sys.stdout.write('Skipped read')
 
 	sys.stdout.write('\n')
-
+	sys.stdout.flush()
+	
 	time.sleep(readSleepTime)
 
 resetlcd()
